@@ -17,5 +17,6 @@ function validateEmail(emailInputId) {
   }
   
   errorText.style.display = "none";
+  emailInput.style.border = "1px solid black";
   return true;
 }
